@@ -109,6 +109,7 @@ cd /root/proj57
 | `frame_000227_input.bin` | `+0.006118` | `-0.000454` | `right` |
 
 结果与 Linux/PyTorch 参考输出方向一致，说明模型加载、外部权重读取、输入 tensor 构造、ONNX Runtime 推理和动作后处理均已跑通。
+运行时内存占用约为 253-256 MB。
 
 ## 文件大小
 
